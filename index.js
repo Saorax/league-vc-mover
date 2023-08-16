@@ -80,7 +80,7 @@ client.on(Events.InteractionCreate, async interaction => {
 
 setInterval(async function () {
     const config = JSON.parse(readFileSync(path.join(process.cwd() + "/config.json")));
-    if (config.disabled === true) return;
+    if (config.disabled === false) return;
     let list = await client.guilds.fetch(process.env.guild).then(res => res.members.cache.filter(member =>
         member.voice.channel &&
         member.presence !== null &&
