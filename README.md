@@ -1,11 +1,15 @@
 # league vc mover
 
 tired of league players in your voice chat? 
+
 blasting you with comms that you don't know or care about?
+
 maybe even saying slurs you've never heard of before?
+
 
 well now you can automatically move them (every 10 seconds) to a different voice chat!
 
+you can also change the game to something else, like Brawlhalla!
 
 requires [NodeJS version >= v16.11.0](https://nodejs.org/en/download/current)
 
