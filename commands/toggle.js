@@ -22,7 +22,7 @@ module.exports = {
             disabled: config2.disabled === true ? false : true
         }))
         await interaction.reply({
-            content: `${config2.disabled === true ? "disabled vc moving :wilted_rose: ........" : "enabled vc moving :grin:"}`
+            content: `${config2.disabled === false ? "disabled vc moving :wilted_rose: ........" : "enabled vc moving :grin:"}`
         });
     },
 };
