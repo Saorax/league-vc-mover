@@ -1,0 +1,9 @@
+{
+    "game": "league of legends",
+    "admins": [
+        "ADMIN",
+        "ADMIN2"
+    ],
+    "vc": "VOICE_CHANNEL",
+    "disabled": false
+}
